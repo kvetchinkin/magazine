@@ -12,6 +12,14 @@ type Subscriber struct {
 }
 
 type Employee struct {
-	Name   string
-	Salary float64
+	Name    string
+	Salary  float64
+	Address Address
+}
+
+type Address struct {
+	Street     string
+	City       string
+	State      string
+	PostalCode string
 }
