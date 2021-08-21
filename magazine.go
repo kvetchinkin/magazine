@@ -14,7 +14,7 @@ type Address struct {
 }
 
 type Employee struct {
-	Name    string
-	Salary  float64
-	Address Address
+	Name   string
+	Salary float64
+	Address
 }
