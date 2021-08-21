@@ -1,10 +1,5 @@
 package magazine
 
-type Car struct {
-	Name  string
-	Speed int
-}
-
 type Subscriber struct {
 	Name   string
 	Rate   float64
