@@ -6,15 +6,15 @@ type Subscriber struct {
 	Active bool
 }
 
-type Employee struct {
-	Name    string
-	Salary  float64
-	Address Address
-}
-
 type Address struct {
 	Street     string
 	City       string
 	State      string
 	PostalCode string
+}
+
+type Employee struct {
+	Name    string
+	Salary  float64
+	Address Address
 }
